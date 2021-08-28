@@ -10,8 +10,7 @@ export default function Success() {
       </div>
       <h1 className="errortext">Request Successful!</h1>
       <p>Your request was successful </p>
-      <Link to="/"></Link>
-      <button class="btn3">Go Back Home</button>
+      <Link to='/'><button class="btn3">Go Back Home</button></Link>
       {/* <img src="../../../img/error.svg" alt="" />
             </div>
             <h1>Oops! this page is unknown or does not exist </h1>
