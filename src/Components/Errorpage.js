@@ -9,8 +9,8 @@ export default function Errorpage() {
             </div>
             <h1>Oops! this page is unknown or does not exist </h1>
           <p>Sorry about that, but the page you are looking for is'nt available.</p>
-          {/* <Link to='/'></Link> */}
-          <button class="btn4">Go Back Home</button>
+          {/*  */}
+          <Link to='/'><button class="btn4">Go Back Home</button></Link>
     </div>
   )
 }

@@ -11,6 +11,8 @@ import Signin from "./Components/Signin";
 import Landing from "./Components/Landing";
 import Signup from "./Components/signup/Signup";
 import Request from "./Components/Request";
+import Errorpage from "./Components/Errorpage";
+import Success from "./Components/Success";
 
 function App() {
   return (
@@ -30,6 +32,12 @@ function App() {
         </Route>
         <Route path="/request" exact>
           <Request />
+        </Route>
+        <Route path="/errorpage" exact>
+          <Errorpage />
+        </Route>
+        <Route path="/success" exact>
+          <Success />
         </Route>
       </Switch>
     </Router>
